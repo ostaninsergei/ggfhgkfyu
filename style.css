@@ -1,0 +1,68 @@
+body {
+    font-family: sans-serif;
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+nav {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding: 25px 100px 25px 95px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+h1 {
+    text-align:left;
+    color: white;
+    font-size: 36px;
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+
+
+
+p {
+    color: white;
+    font-size: 25px;
+     border: 2px solid white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.vstup {
+    font-size: 15px;
+}
+ 
+footer {
+     border-top: 5px solid white;
+     text-align: center;
+}
+
+.product::before {
+    display: block;
+    opacity: 1;
+    content: url("https://avatars.mds.yandex.net/i?id=95f3e943256dad01d7a11b0f6715935015b286d0-4306866-images-thumbs&n=13");
+    width: 300px;
+    height: 350px;
+}
+
+.product:hover::before  {
+    opacity: o.5;
+}
